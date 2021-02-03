@@ -1,0 +1,319 @@
+
+/*
+Theme Name: Austeria Pizzeria
+
+*/
+body{ background-color: white!important;
+
+}
+/* body {
+    background-image: linear-gradient(to top, #ecedee 0%, #eceeef 75%, #e7e8e9 100%);
+    min-height: 100vh;
+    font: normal 16px sans-serif;
+    padding: 60px 0;
+} */
+
+nav{
+    font-size: small;
+    justify-content: space-between!important;
+}
+
+/* Landing Page */
+.main{
+    background-image: url(./img/pizzamainphoto.jpg);
+    background-size: cover;
+    align-content: center;
+    height: 50vw;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 2%;
+    background-attachment: fixed;
+    background-position: center;
+    }
+
+  .bottom {
+    text-align:center;
+    width:100%;
+    position:absolute;
+    bottom:0;
+}
+.bottom a {
+    font-size:36px;
+    color:whitesmoke;
+    position:relative;
+    top:-5px;
+     
+}
+  .caption{
+    width: 50%;
+    position: absolute;
+    top:40%;
+    z-index: 1;
+    color: white;
+    text-transform: uppercase;
+    padding-left: 40%;
+    font-size: larger;
+    
+  }
+  .caption h1{
+    font-size: 1.8rem;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    text-shadow: 0.1rem 0.1rem 0.5rem black;
+    padding-bottom: 1rem;
+    text-shadow: 2px 2px wheat;
+    font-weight: lighter;
+  }
+  img{
+    width: -moz-available;
+   
+  }
+.container{
+    margin:1% 10%;
+    max-width: 50%!important;
+    max-height: 20%!important;
+}
+
+.img1{
+    background-image: url(./img/pizza.jpg);
+    width: 200px;
+    height: 200px;
+    padding: 15%;
+    padding-right: 10%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-bottom-style: double;
+}
+.text1{
+    border-bottom-style: double;
+}
+.img2{
+    background-image: url(./img/coffe.jpg);
+    width: 200px;
+    height: 200px;
+    padding: 15%;
+    padding-left: 10%;
+    background-size: contain;
+background-repeat: no-repeat;
+}
+.text1, .text2{
+    flex-wrap: wrap;
+    padding: inherit;
+}
+.hours{
+    box-sizing: border-box;
+    display: inline;
+    max-width: 100%;
+    max-height: 100px;
+
+}
+.imgHours{
+    max-width: 100%;
+    max-height: 250px;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    object-fit: cover;
+    
+    
+}
+.openingHoursText{
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    align-content: center;
+    padding: 15px;
+    font-size: 30px;
+    align-content: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hourTable{
+    text-align: center;
+    margin: 10px 20px;
+    table-layout: auto;
+}
+#menuId{
+    background-image: url(./img/shaian-ramesht-exSEmuA7R7k-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    box-shadow:-6px -5px 10px 4px #544D45;
+}
+table{
+    color: white;
+}
+
+.headerPizza{
+    /* background-image: url(./img/pizza_menu.jpg); */
+    background-color: rgba(48, 31, 16, 0.644);
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+    font-size: 20px;
+}
+.headerSandwich{
+    /* background-image: url(./img/kanapka.jpg); */
+    background-color: rgba(48, 31, 16, 0.644);
+        color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+    font-size: 20px;
+    height: 30px;
+}
+.headerNoodles{
+    /* background-image: url(./img/noodles.jpg); */
+    background-color: rgba(48, 31, 16, 0.644);
+        color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+    font-size: 20px;
+    height: 30px;
+}
+.headerDumplings{
+    /* background-image: url(./img/dumplings.jpg); */
+    background-color: rgba(48, 31, 16, 0.644);
+        color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+    font-size: 20px;
+    height: 30px;
+}
+.headerSalads{
+    /* background-image: url(./img/salads2.jpg); */
+    background-color: rgba(48, 31, 16, 0.644);
+        color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+    font-size: 20px;
+    height: 30px;
+}
+.headerDesserts{
+    /* background-image: url(./img/applepie.jpg); */
+    background-color: rgba(48, 31, 16, 0.644);
+        color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+    font-size: 20px;
+    height: 30px;
+}
+.headerFries{
+    /* background-image: url(./img/fries.jpg); */
+    background-color: rgba(48, 31, 16, 0.644);
+        color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+    font-size: 20px;
+    height: 30px;
+}
+.headerDrinks{
+    /* background-image: url(./img/drinks.jpg); */
+    background-color: rgba(48, 31, 16, 0.644);
+        color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+    font-size: 20px;
+    height: 30px;
+}
+th{
+    width: 20px;
+text-align: center!important;
+text-shadow: 0.3rem 0.3rem 0.7rem black;
+}
+.beforeFooter{
+   color: white;
+   background-color: #4c4a50
+}
+footer{
+    background-color: #37363a;
+    height: 100px;
+    
+}
+.welcome{
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    text-shadow: 0.1rem 0.1rem 0.5rem rgb(0, 0, 0);
+    text-orientation: sideways;
+}
+
+/*GALLERY*/
+
+.container.gallery-container {
+    background-color: #fff;
+    color: #35373a;
+    min-height: 100vh;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+}
+
+.gallery-container h1 {
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+}
+
+.gallery-container p.page-description {
+    text-align: center;
+    max-width: 800px;
+    margin: 25px auto;
+    color: #888;
+    font-size: 18px;
+}
+
+.tz-gallery {
+    padding: 40px;
+}
+
+.tz-gallery .lightbox img {
+    width: 100%;
+    margin-bottom: 30px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+
+
+.tz-gallery .lightbox img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+.tz-gallery img {
+    border-radius: 4px;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+
+@media(max-width: 768px) {
+    body {
+        padding: 0;
+    }
+
+    .container.gallery-container {
+        border-radius: 0;
+    }
+}

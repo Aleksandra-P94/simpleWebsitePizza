@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Pizza&Cafe</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+    <link rel="stylesheet" href="gallery-grid.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="home">
+        <nav class="navbar navbar-expand-md fixed-top" style="background-color: #37363a;" >
+            <a class="navbar-brand" href="index.html">
+                <img src="img/Logo.jpeg" alt="Pizza&Cafe" style="color: #ffffff">
+            </a>
+
+            <div class="nav nav-tabs" id="navbarResponsive"role="tablist">
+
+            <div id="menu">
+            <a class="nav-link" id="nav-home-tab" data-toggle="tab" href="/index.html#menuId" role="tab" aria-controls="nav-home" aria-selected="true" style="color: #ffffff">Menu</a></div>
+            
+            <div id="gallery"> 
+            <a class="nav-link" id="nav-profile-tab" data-toggle="tab" href="/page.html" role="tab" aria-controls="nav-profile" aria-selected="false" style="color: #ffffff">
+            Galeria</a></div>
+    
+            <div id="contact">
+            <a class="nav-link" id="nav-contact-tab" data-toggle="tab" href="/index.html#contactId" role="tab" aria-controls="nav-contact" aria-selected="false" style="color: #ffffff">Kontakt</a></div>
+            
+            </div>
+
+        </nav></div>
+    
+    <!-- End Landing Page -->
+
+    <!--Gallery Content-->
+    <div class="container gallery-container pt-1 my-5 mx-auto">
+
+        <h1>Galeria</h1>
+    
+        <p class="page-description text-center">Pizza&Cafe</p>
+        
+        <div class="tz-gallery">
+    
+            <div class="row">
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="./images/pizza.jpg">
+                        <img src="../images/pizza.jpg" alt="Park">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="./images/coffe.jpg">
+                        <img src="./images/coffe.jpg"" alt="Bridge">
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <a class="lightbox" href="./images/drinks.jpg">
+                        <img src="./images/kanapka.jpg" alt="Tunnel">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="./images/noodles.jpg">
+                        <img src="./images/noodles.jpg" alt="Coast">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="./images/fries.jpg">
+                        <img src="./images/fries.jpg" alt="Rails">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="./images/salads2.jpg">
+                        <img src="./images/salads2.jpg" alt="Traffic">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="./images/applepie.jpg">
+                        <img src="./images/applepie.jpg" alt="Rocks">
+                    </a>
+                </div>
+              
+            </div>
+    
+        </div>
+    
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+    <script>
+        baguetteBox.run('.tz-gallery');
+    </script>    
+
+</body>
+</html>
